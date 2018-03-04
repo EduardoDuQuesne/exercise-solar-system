@@ -1,20 +1,26 @@
-# spa-array-methods
+# Nashville Software School: Front-End Exercise
 
-1 .Copy the code below into the JavaScript file, and follow the instructions in the comments.
+## Solar System
 
-### var planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", ### ### "neptune"];
-### 
-###  /*
- ### Use the forEach method to add the name of each planet
- ### to a div element in your HTML with an id of "planets".
-### */
-### var el = document.getElementById("planets");
+## Requirements
 
-### // Use the map method to create a new array where the first letter of each planet is ### capitalized
+1. Copy the code below into the JavaScript file, and follow the instructions in the comments.
 
-### // Use the filter method to create a new array that contains planets with the letter ### 'e'
+```javascript
+var planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"];
 
-### // Use the reduce method to create a sentence from the words in the following array
+/*
+ Use the forEach method to add the name of each planet
+ to a div element in your HTML with an id of "planets".
+*/
+var el = document.getElementById("planets");
 
-### var words = ["The", "early", "bird", "might", "get", "the", "worm", "but", "the", 
-### "second", "mouse", "gets", "the", "cheese"];
+// Use the map method to create a new array where the first letter of each planet is capitalized
+
+// Use the filter method to create a new array that contains planets with the letter 'e'
+
+// Use the reduce method to create a sentence from the words in the following array
+
+var words = ["The", "early", "bird", "might", "get", "the", "worm", "but", "the", "second", "mouse", "gets", "the", "cheese"];
+```
+
